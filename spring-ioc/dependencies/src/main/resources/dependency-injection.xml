@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 基于构造函数的依赖注入，构造函数参数有多重匹配规则，类型匹配，名称匹配，下标匹配  -->
+    <bean id="constructorDependencyInjectionBean"
+          class="cn.tuacy.spring.dependencies.dependencyinjection.ConstructorDependencyInjectionBean">
+        <constructor-arg name="age" value="30"/>
+        <constructor-arg name="name" value="tuacy"/>
+    </bean>
+
+</beans>
