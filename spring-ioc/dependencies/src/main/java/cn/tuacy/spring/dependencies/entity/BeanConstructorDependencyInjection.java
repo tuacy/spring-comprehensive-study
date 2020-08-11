@@ -1,17 +1,22 @@
-package cn.tuacy.spring.dependencies.dependencyinjection;
+package cn.tuacy.spring.dependencies.entity;
 
 /**
  *
- * 基于setter的依赖注入对应的bean
+ * 基于构造函数的依赖注入对应的bean
  *
  * @version 1.0
  * @author: tuacy.
  * @date: 2020/8/10 19:53.
  */
-public class SetterDependencyInjectionBean {
+public class BeanConstructorDependencyInjection {
 
     private String name;
     private int age;
+
+    public BeanConstructorDependencyInjection(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
 
     public String getName() {
         return name;

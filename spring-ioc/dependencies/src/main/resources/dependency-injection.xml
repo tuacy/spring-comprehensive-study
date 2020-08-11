@@ -5,10 +5,16 @@
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- 基于构造函数的依赖注入，构造函数参数有多重匹配规则，类型匹配，名称匹配，下标匹配  -->
-    <bean id="constructorDependencyInjectionBean"
-          class="cn.tuacy.spring.dependencies.dependencyinjection.ConstructorDependencyInjectionBean">
+    <bean id="beanConstructorDependencyInjection"
+          class="cn.tuacy.spring.dependencies.entity.BeanConstructorDependencyInjection">
         <constructor-arg name="age" value="30"/>
         <constructor-arg name="name" value="tuacy"/>
     </bean>
 
+    <!-- 基于setter的依赖注入，也叫属性注入 -->
+    <bean id="beanSetterDependencyInjection"
+          class="cn.tuacy.spring.dependencies.entity.BeanSetterDependencyInjection">
+        <property name="age" value="30"/>
+        <property name="name" value="tuacy"/>
+    </bean>
 </beans>
