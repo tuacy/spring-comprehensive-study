@@ -1,4 +1,4 @@
-package cn.tuacy.spring.dependencies.entity;
+package cn.tuacy.spring.dependency.injection.entity;
 
 /**
  *

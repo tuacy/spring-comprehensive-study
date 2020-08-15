@@ -6,14 +6,14 @@
 
     <!-- 基于构造函数的依赖注入，构造函数参数有多重匹配规则，类型匹配，名称匹配，下标匹配  -->
     <bean id="beanConstructorDependencyInjection"
-          class="cn.tuacy.spring.dependencies.entity.BeanConstructorDependencyInjection">
+          class="cn.tuacy.spring.dependency.injection.entity.BeanConstructorDependencyInjection">
         <constructor-arg name="age" value="30"/>
         <constructor-arg name="name" value="tuacy"/>
     </bean>
 
     <!-- 基于setter的依赖注入，也叫属性注入 -->
     <bean id="beanSetterDependencyInjection"
-          class="cn.tuacy.spring.dependencies.entity.BeanSetterDependencyInjection">
+          class="cn.tuacy.spring.dependency.injection.entity.BeanSetterDependencyInjection">
         <property name="age" value="30"/>
         <property name="name" value="tuacy"/>
     </bean>

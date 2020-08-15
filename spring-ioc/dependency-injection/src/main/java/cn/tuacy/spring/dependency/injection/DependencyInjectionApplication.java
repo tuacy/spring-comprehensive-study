@@ -1,7 +1,7 @@
-package cn.tuacy.spring.dependencies.dependencyinjection;
+package cn.tuacy.spring.dependency.injection;
 
-import cn.tuacy.spring.dependencies.entity.BeanConstructorDependencyInjection;
-import cn.tuacy.spring.dependencies.entity.BeanSetterDependencyInjection;
+import cn.tuacy.spring.dependency.injection.entity.BeanConstructorDependencyInjection;
+import cn.tuacy.spring.dependency.injection.entity.BeanSetterDependencyInjection;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
