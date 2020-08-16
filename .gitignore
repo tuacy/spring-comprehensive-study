@@ -5,3 +5,4 @@ spring-comprehensive-study.iml
 spring-ioc/spring-ioc.iml
 spring-ioc/dependency-injection/dependency-injection.iml
 spring-ioc/dependency-source/dependency-source.iml
+spring-ioc/bean-scope/bean-scope.iml
