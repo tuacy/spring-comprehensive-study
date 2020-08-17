@@ -20,7 +20,7 @@
         <module>dependency-lookup</module>
         <module>bean-scope</module>
         <module>bean-lifecycle</module>
-        <module>bean-resolve-register</module>
+        <module>bean-definition</module>
     </modules>
 
     <dependencies>

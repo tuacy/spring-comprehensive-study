@@ -1,0 +1,11 @@
+- XML配置
+  - 属性注入
+  - 构造函数注入
+  - 工厂方法注入
+    - 非静态工厂方法
+    - 静态工厂方法
+- 注解的方式注入
+  - @Autowired：AutowiredAnnotationBeanPostProcessor处理依赖注入。按类型自动装配。可标注在成员变量（官方不推荐）、构造方法、setter方法上。
+  - @Value：注入int、float、String等基本数据类型，只能标注在成员变量、setter方法上。
+  - @Resource：CommonAnnotationBeanPostProcessor处理依赖注入。默认autowired by field name，如果autowired by field name失败，会退化为autowired by type。
+  - @Inject：AutowiredAnnotationBeanPostProcessor处理依赖注入。按类型自动装配。

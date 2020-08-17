@@ -1,11 +1,11 @@
-package cn.tuacy.spring.bean.resolve.register.entity;
+package cn.tuacy.spring.bean.definition.entity;
 
 /**
  * @version 1.0
  * @author: tuacy.
- * @date: 2020/8/17 14:07.
+ * @date: 2020/8/17 19:23.
  */
-public class User {
+public class Person {
 
     private String name;
     private int age;
@@ -24,5 +24,13 @@ public class User {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
     }
 }
