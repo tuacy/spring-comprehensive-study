@@ -21,6 +21,7 @@
         <module>bean-scope</module>
         <module>bean-lifecycle</module>
         <module>bean-definition</module>
+        <module>configuration-metadata</module>
     </modules>
 
     <dependencies>
