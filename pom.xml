@@ -14,6 +14,7 @@
         <module>spring-ioc</module>
         <module>spring-resource</module>
         <module>i18n</module>
+        <module>validation</module>
     </modules>
 
     <properties>
