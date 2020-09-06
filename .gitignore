@@ -13,3 +13,5 @@ spring-resource/resource/resource.iml
 i18n/i18n.iml
 
 validation/validation.iml
+
+data-binding/data-binding.iml
