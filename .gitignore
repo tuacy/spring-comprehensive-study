@@ -15,3 +15,5 @@ i18n/i18n.iml
 validation/validation.iml
 
 data-binding/data-binding.iml
+
+conversion/conversion.iml
